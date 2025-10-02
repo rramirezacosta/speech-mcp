@@ -3,7 +3,7 @@ package handlers
 import (
 	"context"
 	"fmt"
-	"mcp_speech/speech"
+	"speech-mcp/speech"
 
 	"github.com/mark3labs/mcp-go/mcp"
 )

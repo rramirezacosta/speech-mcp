@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"mcp_speech/handlers"
+	"speech-mcp/handlers"
 
 	"github.com/mark3labs/mcp-go/mcp"
 	"github.com/mark3labs/mcp-go/server"
