@@ -6,7 +6,10 @@ Voice interaction MCP server that relies on libspeech on linux
 ![Example Screenshot](media/example_blade_runner.png)
 
 Listen to the example audio output:
-[Example Audio](media/example_blade_runner.wav)
+<audio controls>
+  <source src="media/example_blade_runner.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
 
 
 ## Prerequisites
