@@ -1,9 +1,15 @@
 # speech-mcp
 Voice interaction MCP server that relies on libspeech on linux
 
-## USAGE
+### Example Usage
 
-This MCP server provides text-to-speech functionality through Speech Dispatcher on Linux. It exposes two tools for speaking text in English and Spanish.
+The server includes example media files in the `media/` folder:
+
+![Example Screenshot](media/example_blade_runner.png)
+
+Listen to the example audio output:
+[Example Audio](media/example_blade_runner.wav)
+
 
 ### Prerequisites
 
@@ -30,16 +36,3 @@ Converts text to speech in Spanish using the system's Spanish voice.
 **Parameters:**
 - `texto` (required): The Spanish text to speak aloud
 
-**Example:**
-```
-Use the "diga" tool with texto: "Hola, esto es una prueba del sistema de voz"
-```
-
-### Example Usage
-
-The server includes example media files in the `media/` folder:
-
-![Example Screenshot](media/example_blade_runner.png)
-
-You can also listen to the example audio output:
-[Example Audio](media/example_blade_runner.wav)
